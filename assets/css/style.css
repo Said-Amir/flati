@@ -42,6 +42,115 @@ header nav ul li:hover a {
   color: white;
 }
 
+#programmers {
+  background-color: #dbdbd0;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+#programmers div {
+  width: 70%;
+}
+#programmers div h2 {
+  margin: 0;
+  text-align: center;
+  font-size: xx-large;
+  color: #8a8484;
+  font-weight: 400;
+}
+#programmers div #firstH2 {
+  margin-bottom: 25px;
+}
+
+#contenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contenu .steps {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  height: 350px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+#contenu .steps div {
+  width: 19%;
+  background-color: #cececc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+}
+#contenu .steps div .bg-icon {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contenu .steps div .bg-icon i {
+  color: #3066ca;
+  font-size: 30px;
+}
+#contenu .steps div p {
+  width: 80%;
+  text-align: center;
+}
+#contenu .steps div .deuxiemeH3 {
+  margin: 0;
+  color: #487fe4;
+  font-weight: 400;
+}
+#contenu .steps div .space {
+  height: 20px;
+  width: 100%;
+}
+#contenu .work {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+#contenu .work .left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#contenu .work .left .container {
+  width: 50%;
+}
+#contenu .work .left .container button {
+  background-color: #487fe4;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+}
+#contenu .work .right {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+#contenu .work .right .container2 {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+#contenu .work .right .container2 div {
+  margin-right: 3px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+}
+#contenu .work .right .container2 div img {
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;

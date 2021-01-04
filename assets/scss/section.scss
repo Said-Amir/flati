@@ -1,0 +1,109 @@
+#programmers{
+    background-color: rgb(219, 219, 208);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 70%;
+        h2{
+            margin: 0;
+            text-align: center;
+            font-size: xx-large;
+            color: rgb(138, 132, 132);
+            font-weight: 400;
+        }
+        #firstH2{
+            margin-bottom: 25px;
+        }
+    }
+}
+
+#contenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .steps{
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        height: 350px;
+        align-items: center;
+        margin-bottom: 80px;
+        div{
+            width: 19%;
+            background-color: rgb(206, 206, 204);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 3px;
+            .bg-icon{
+                background-color: white;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-top: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color: rgb(48, 102, 202);
+                    font-size: 30px;
+                }
+            }
+            p{
+                width: 80%;
+                text-align: center;
+            }
+            .deuxiemeH3{
+                margin: 0;
+                color: rgb(72, 127, 228);
+                font-weight: 400;
+            }
+            .space{
+                height: 20px;
+                width: 100%;
+            }
+        }
+    }
+
+    .work{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 120px;
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            .container{
+                width: 50%;
+                button{
+                    background-color: rgb(72, 127, 228);
+                    border: none;
+                    padding: 10px;
+                    border-radius: 2px;
+                    color: white;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: flex-start;
+            width: 50%;
+            .container2{
+                width: 75%;
+                display: flex;
+                justify-content: flex-end;
+                div{
+                    margin-right: 3px;
+                    background-color: gray;
+                    text-align: center;
+                    color: white;
+                    border-radius: 3px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

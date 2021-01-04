@@ -1,0 +1,35 @@
+// ************** STYLE FOOTER ******************** //
+
+footer{
+    .partie1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(46, 108, 224);
+        color: white;
+        padding-bottom: 20px;
+        .iconFooter{
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            i{
+                color: rgba(255,255,255,0.4);
+                margin: 5px 10px;
+            }
+        }
+        h3{
+            font-weight: 400;
+        }
+        p{
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    .partie2{
+        display: flex;
+        justify-content: center;
+        background-color: #343a40;
+        color: rgba(255,255,255,0.4);
+    }
+}

@@ -1,0 +1,41 @@
+//************************ LISTE DES IMPORTS*********************************//
+
+@import "./header.scss";
+
+// ************************* GENERAL ****************** //
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+.white{
+    color: white;
+}
+
+.bg-dark{
+    background-color: #343a40;
+}
+
+.fontFamily{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.bg-blue{
+    background-color: dodgerblue;
+    color: white;
+    padding: 0 2px;
+}
+
+.blue{
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+i{
+    color: black;
+}
+// ************************* FIN GENERAL ******************************* //
